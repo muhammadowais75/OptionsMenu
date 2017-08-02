@@ -56,7 +56,14 @@ public class MainActivity extends AppCompatActivity {
                 Snackbar.make(coordinatorLayout, "Muhammad Owais Aslam is a Student", Snackbar.LENGTH_LONG)
                         .setAction("Action", null).show();
                 return true;
-
+            case R.id.log_out:
+                Snackbar.make(coordinatorLayout, "You are Logging Out", Snackbar.LENGTH_LONG)
+                        .setAction("Action", null).show();
+                return true;
+            case R.id.shopping_cart:
+                Snackbar.make(coordinatorLayout, "Buying from Shopping Cart", Snackbar.LENGTH_LONG)
+                        .setAction("Action", null).show();
+                return true;
         }
 
         return super.onOptionsItemSelected(item);
